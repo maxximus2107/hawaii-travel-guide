@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.lanikai-section,
+.maui-section,
+.waikiki-section {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.lanikai-section {
+    background-image: url("assets/lanikai.jpeg");
+}
+
+.maui-section {
+    background-image: url("assets/maui.jpeg");
+}
+
+.waikiki-section {
+    background-image: url("assets/waikiki.jpeg");
+}
+
+
+#map-container {
+    width: 100%;
+    height: 400px;
+}
+
+#weather-info {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#upload-section {
+    margin: 20px;
+    padding: 20px;
+    background: #f7f9fa;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#user-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#user-gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

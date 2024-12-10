@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawaii Travel</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Maps Script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUtpPnnXDH98hVq3To9GW6OIGrp0YIbDA&callback=initMap">
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Explore Hawaii</h1>
+    </header>
+
+    <div class="lanikai-section"></div>
+    <div class="maui-section"></div>
+    <div class="waikiki-section"></div>
+
+
+    <!-- Map Section -->
+    <section id="map-container">
+        <div id="map"></div>
+    </section>
+
+    <!-- Weather Info Section -->
+    <section id="weather-info">
+        <h2>Weather in Hawaii</h2>
+        <div id="weather"></div>
+    </section>
+
+    <!-- Upload Photos Section -->
+    <section id="upload-section">
+        <h2>Share Your Hawaii Moments</h2>
+        <label for="photo-upload">Upload Your Photos</label>
+        <input type="file" id="photo-upload" accept="image/*" multiple>        
+        <div id="user-gallery" class="gallery"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
